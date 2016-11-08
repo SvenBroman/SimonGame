@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="container">
+  <div class="control">
+    <div id="win"></div>
+    <div id="display"></div>
+    <div id="lab1">Count  Start  Strict</div>
+    <div id="start1" onClick="start()" onmousedown="pressStart()" onmouseup="unPressStart()"></div>
+    <div id="strict" onmousedown="pressStrict()" onmouseup="unPressStrict()"></div>
+    <div id="light"></div>
+    <div id="onOff">
+      <p class="right">on</p>
+      <div id="switch" onClick="onOffSwitch()">
+        <div id="togSw"></div>
+      </div>
+      <p class="left">off</p>
+    
+    </div>
+  </div>
+
+
+  <div id="red" class="playSoundRed"></div>
+  <div id="green" class="playSoundGreen"></div>
+  <div id="blue" class="playSoundBlue"></div>
+  <div id="yellow" class="playSoundYellow"></div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>

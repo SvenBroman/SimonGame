@@ -1,0 +1,226 @@
+
+body{
+ background-image:url("../images/wood.jpg");
+ 
+}
+.container {
+  margin: auto;
+  width: 465px;
+  height: 465px;
+  border: 1px solid #464A49;
+  position: relative;
+  border-radius:230px;
+  margin-top:20px;
+  background:#343436;
+  box-shadow: 1px 0px 1px 4px rgba(0,0,0,0.6);
+}
+
+#blue {
+  width: 200px;
+  height: 200px;
+  background: #094A8F;
+  border: 10px solid #343436;
+  border-bottom: 20px solid #343436;
+  border-right: 20px solid #343436;
+  border-radius: 0 0 220px 0;
+  -moz-border-radius: 0 0 220px 0;
+  -webkit-border-radius: 0 0 220px 0;
+  /* float: right; */
+  z-index: 1;
+ /*  position: relative; */
+ left:50%;
+ position:absolute;
+ top:50%;
+}
+
+#yellow {
+  width: 200px;
+  height: 200px;
+  background: #CCA707;
+  border: 10px solid  #343436;
+  border-bottom: 20px solid #343436;
+  border-left: 20px solid #343436;
+  border-radius: 0 0 0 220px;
+  -moz-border-radius: 0 0 0 220px;
+  -webkit-border-radius: 0 0 0 220px;
+  right:50%;
+  top:50%;
+  position: absolute;
+  z-index: 1;
+}
+
+#red {
+  width: 200px;
+  height: 200px;
+  background: #9F0F17;
+  border: 10px solid #343436;
+  border-top: 20px solid #343436;
+  border-right: 20px solid #343436;
+  border-radius: 0 220px 0 0;
+  -moz-border-radius: 0 220px 0 0;
+  -webkit-border-radius: 0 220px 0 0;
+  left:50%;
+ position:absolute;
+bottom:50%;
+  z-index: 1;
+}
+
+#green {
+  width: 200px;
+  height: 200px;
+  background: green;
+  border: 10px solid #343436;
+  border-top: 20px solid #343436;
+  border-left: 20px solid #343436;
+  border-radius: 220px 0 0 0;
+  -moz-border-radius: 220px 0 0 0;
+  -webkit-border-radius: 220px 0 0 0;
+ right:50%;
+ position:absolute;
+ bottom:50%;
+  z-index: 1;
+}
+
+.control {
+  width: 200px;
+  height: 200px;
+  border: 15px solid #343436;
+  border-radius: 200px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+  background-color: #ECE7EE;
+  margin-left: 115px;
+  
+}
+hold{
+  text-align: center;
+  font-size: 3.4em;
+  font-family:'Alfa Slab One';
+  font-weight:900;
+}
+
+#win {
+  width:87%;
+  height:40px;
+  background:#ece7ee;
+  margin-top:40px;
+    background-image:url('../images/simon.png');
+  background-size:175px;
+  background-repeat: no-repeat;
+  margin-left:13px;
+  margin-bottom:15px;
+  border-radius:20px 30px 0 0;
+  
+}
+
+#display {
+  text-align: center;
+  width: 50px;
+  height: 40px;
+  color: red;
+  background-color: black;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-size: 2em;
+  margin-top:10px;
+  
+  
+}
+
+button {
+  text-align: center;
+  margin-left: 37%;
+  margin-top: 5px;
+}
+sup{
+  font-size:.2em;
+}
+#start1{
+  width:18px;
+  height:18px;
+  background-color:red;
+  border-radius:18px;
+  border:5px solid black;
+  float:right;
+  margin-top:-50px;
+  margin-right:80px;
+  
+}
+#lab1{
+  text-align:center;
+  word-spacing:20px;
+  font-family:'Oswald';
+  font-size:.7em;
+  margin-top: 5px;
+  
+  
+   
+}
+#strict{
+  width:18px;
+  height:18px;
+  background-color:yellow;
+  border-radius:18px;
+  border:5px solid black;
+  float:right;
+  margin-top:-50px;
+  margin-right:40px;
+  
+}
+#light{
+  width:5px;
+  height:5px;
+  background-color:#8E8271;
+  border-radius:5px;
+  border:1px solid black;
+  float:right;
+  margin-top:-60px;
+  margin-right:50px;
+  
+}
+p{
+  display:inline
+}
+.right{
+  
+  position:absolute;
+  right:55px;
+  top:72%;
+  
+}
+.left{
+  position:absolute;
+  left:55px;
+  top:72%;
+ 
+}
+#switch{
+  width:40px;
+  height:20px;
+  border-radius:3px;
+  background:black;
+  position:absolute;
+  right:40%;
+  top:80%;
+  z-index:-1;
+}
+
+#onOff{
+  width:80px;
+  height:20px;  
+  z-index:1;
+}
+#togSw{
+width:16px;
+height:16px;
+  border:2px solid black;
+  border-radius:5px;
+background:#094A8F;
+ position:absolute;
+  left:0%;
+  top:1px;
+ z-ndex:2; 
+}
