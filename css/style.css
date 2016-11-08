@@ -3,6 +3,9 @@ body{
  background-image:url("../images/wood.jpg");
  
 }
+h1 {
+    text-align:center;
+}
 .container {
   margin: auto;
   width: 465px;
