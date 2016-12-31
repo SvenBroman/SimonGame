@@ -16,6 +16,9 @@ body{
 h1 {
     text-align:center;
 }
+h2 {
+    text-align:center;
+}
 .container {
   margin: auto;
   width: 465px;
